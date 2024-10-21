@@ -14,7 +14,7 @@ camera.position.set(0, 10, 10)
 camera.lookAt(0, 0, 0)
 
 // created a plane
-const planeGeometry = new THREE.PlaneGeometry(30, 30)
+const planeGeometry = new THREE.PlaneGeometry(10, 10)
 const planeMaterial = new THREE.MeshBasicMaterial({
   color: 0xaaaaaa,
   side: THREE.DoubleSide,
